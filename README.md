@@ -1,6 +1,6 @@
 # Pocket-NeoGeo-Json-Maker
 
-creates json files for neogeo games
+creates json files for NeoGeo games
 
 copy the Assets folder onto the root of your micro sd card, then navigate to assets/ng and run PocketNeo.py
 
