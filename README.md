@@ -10,4 +10,4 @@ templates and games list will auto delete once procedure has finished.
 
 It will also place the game.json files in the \Assets\ng\Mazamars312.NeoGeo folder.
 
-No other files or folders are worked in. Once complete you can delete PocketNeo.py
+No other files or folders are worked in and any custom json files you have should be intact. Once complete you can delete PocketNeo.py
