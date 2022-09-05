@@ -27,6 +27,39 @@ try:
 except FileExistsError:
     print("Directory " , dirName ,  " already exists")   
 
+
+#compares and makes .json file for game        
+def find_string(file_name, word):
+   with open(file_name, 'r') as a:
+       for line in a:
+           line = line.rstrip()
+           if re.search(r"\b{}\b".format(word),line):
+             return True
+             return False
+
+if find_string('Gamelist.txt', '19YY'):
+        # open both files
+        message = '19YY success'
+        print (message)
+        with open('template.json','r') as firstfile, open ('./Mazamars312.NeoGeo/19YY.json','w') as secondfile:
+        
+                 # read content from first file
+                 for line in firstfile:
+                 
+                          # write content to second file
+                          secondfile.write(line)
+                 
+        # This for loop scans and searches each line in the file
+        # By using the input() method of fileinput module
+        for line in fileinput.input("./Mazamars312.NeoGeo/19YY.json", inplace=True):
+                 
+                 # This will replace string "GameFolder/" with "19YY" in each line
+                 line = line.replace("GameFolder/", "19YY")
+                 # write() method of sys module redirects the .stdout is redirected to the file
+                 sys.stdout.write(line)
+else:
+     print("19YY not found")
+
 #compares and makes .json file for game        
 def find_string(file_name, word):
    with open(file_name, 'r') as a:
