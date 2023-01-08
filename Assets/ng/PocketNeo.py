@@ -37,9 +37,9 @@ def find_string(file_name, word):
              return True
              return False
 
-if find_string('Gamelist.txt', '19YY'):
+if find_string('Gamelist.txt', '19yy'):
         # open both files
-        message = '19YY success'
+        message = '19yy success'
         print (message)
         with open('template.json','r') as firstfile, open ('./Mazamars312.NeoGeo/19YY.json','w') as secondfile:
         
@@ -58,7 +58,7 @@ if find_string('Gamelist.txt', '19YY'):
                  # write() method of sys module redirects the .stdout is redirected to the file
                  sys.stdout.write(line)
 else:
-     print("19YY not found")
+     print("19yy not found")
 
 #compares and makes .json file for game        
 def find_string(file_name, word):
@@ -897,6 +897,40 @@ if find_string('Gamelist.txt', 'brningfp'):
                  sys.stdout.write(line)
 else:
      print("brningfp not found") 
+     
+     
+     
+#compares and makes .json file for game        
+def find_string(file_name, word):
+   with open(file_name, 'r') as a:
+       for line in a:
+           line = line.rstrip()
+           if re.search(r"\b{}\b".format(word),line):
+             return True
+             return False
+
+if find_string('Gamelist.txt', 'CakeFighter'):
+        # open both files
+        message = 'Cake Fighter success'
+        print (message)
+        with open('template.json','r') as firstfile, open ('./Mazamars312.NeoGeo/Cake Fighter.json','w') as secondfile:
+        
+                 # read content from first file
+                 for line in firstfile:
+                 
+                          # write content to second file
+                          secondfile.write(line)
+                 
+        # This for loop scans and searches each line in the file
+        # By using the input() method of fileinput module
+        for line in fileinput.input("./Mazamars312.NeoGeo/Cake Fighter.json", inplace=True):
+                 
+                 # This will replace string "GameFolder/" with "CakeFighter" in each line
+                 line = line.replace("GameFolder/", "CakeFighter")
+                 # write() method of sys module redirects the .stdout is redirected to the file
+                 sys.stdout.write(line)
+else:
+     print("Cake Fighter not found")      
 
 #compares and makes .json file for game        
 def find_string(file_name, word):
@@ -1186,7 +1220,42 @@ if find_string('Gamelist.txt', 'eightman'):
                  # write() method of sys module redirects the .stdout is redirected to the file
                  sys.stdout.write(line)
 else:
-     print("eightman not found")      
+     print("eightman not found")   
+
+#compares and makes .json file for game        
+def find_string(file_name, word):
+   with open(file_name, 'r') as a:
+       for line in a:
+           line = line.rstrip()
+           if re.search(r"\b{}\b".format(word),line):
+             return True
+             return False
+
+if find_string('Gamelist.txt', 'teot'):
+        # open both files
+        message = 'teot success'
+        print (message)
+        with open('template5.json','r') as firstfile, open ('./Mazamars312.NeoGeo/Eye of Typhoon, The.json','w') as secondfile:
+        
+                 # read content from first file
+                 for line in firstfile:
+                 
+                          # write content to second file
+                          secondfile.write(line)
+                 
+        # This for loop scans and searches each line in the file
+        # By using the input() method of fileinput module
+        for line in fileinput.input("./Mazamars312.NeoGeo/Eye of Typhoon, The.json", inplace=True):
+                 
+                 # This will replace string "GameFolder/" with "teot" in each line
+                 line = line.replace("GameFolder/", "teot")
+                 line = line.replace("0xPVC-Cart", "0x00000000")
+                 line = line.replace("0xSMA-Cart", "0x00000000")
+                 line = line.replace("0xCMC-Chip", "0x00000000")
+                 # write() method of sys module redirects the .stdout is redirected to the file
+                 sys.stdout.write(line)
+else:
+     print("teot not found")      
 
 #compares and makes .json file for game        
 def find_string(file_name, word):
@@ -8218,7 +8287,7 @@ os.remove('./template2.json')
 os.remove('./template3.json')
 os.remove('./template4.json')
 os.remove('./template5.json')
-os.remove('./Gamelist.txt') 
+os.remove('./Gamelist.txt')  
 
   
 print("Analogue Pocket Neogeo game.json files created successfully in " , dirName ,"folder")      
