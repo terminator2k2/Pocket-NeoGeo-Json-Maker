@@ -1,6 +1,6 @@
 ######################################################################################################################
-# Python - Script By Terminator2k2 - Creates json files for Analogue Pocket NeoGeo Rom Set. This requires an up to   #
-# date template.json in the same folder as this file. output files go to a folder named   "Mazamars312.NeoGeo"       #
+# Python - Script By Terminator2k2 & Timothee Groleau - Creates json files for Analogue Pocket NeoGeo Rom Set.       #
+# Big Thank You to Timothee Groleau (timotheeg) who re-wrote the script.                                             #
 # Big Thank You to Mazamars312 for porting/Fixes to the Superb Neogeo Core For The Analogue Pocket.                  #
 # Big Thank You To all involved in creating this core for The MiSTer Project.                                        #
 ######################################################################################################################
@@ -85,4 +85,4 @@ os.remove('./PocketNeo.py')
 
 print("")
 print("Analogue Pocket Neogeo {} game json files created successfully in folder {} ".format(len(gamesToProcess), dirName))      
-print("Script Created by Terminator2k2 - Enjoy")  
+print("Script Created by Terminator2k2 & timotheeg - Enjoy")  
