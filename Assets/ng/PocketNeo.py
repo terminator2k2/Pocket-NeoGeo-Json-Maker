@@ -58,25 +58,24 @@ for game in gamesToProcess:
 
     gameFilePath = './{}/{}.json'.format(dirName, game["name"])
 
-    # open both files
-    with open(gameFilePath, 'w') as gameJsonFile:
-        content = copy.deepcopy(template)
-        content["instance"]["data_path"] = game["code"]
+    content = copy.deepcopy(template)
+    content["instance"]["data_path"] = game["code"]
 
-        if ("memory_writes" in game):
-            for memId, data in game["memory_writes"].items():
-                content["instance"]["memory_writes"].append({
-                    "address": memoryMap[memId],
-                    "data": data
-                })
-
-        if ("has_prom1" in game and game["has_prom1"] == True):
-            content["instance"]["data_slots"].append({
-                "id": 8, # hardcoded 8 is not cool, but matches template
-                "filename": "prom1",
+    if ("memory_writes" in game):
+        for memId, data in game["memory_writes"].items():
+            content["instance"]["memory_writes"].append({
+                "address": memoryMap[memId],
+                "data": data
             })
 
-        # write to game file
+    if ("has_prom1" in game and game["has_prom1"] == True):
+        content["instance"]["data_slots"].append({
+            "id": 8, # hardcoded 8 is not cool, but matches template
+            "filename": "prom1",
+        })
+
+    # write to game file
+    with open(gameFilePath, 'w') as gameJsonFile:
         gameJsonFile.write(json.dumps(content, indent=2))
 
 
