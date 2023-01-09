@@ -13,3 +13,4 @@ It will also place the game.json files in the \Assets\ng\Mazamars312.NeoGeo fold
 No other files or folders are worked in and any custom json files you have made yourself should be intact. 
 
 Big Thank you to Timothee Groleau (timotheeg) for re-writing the script, Much appreciated
+---
