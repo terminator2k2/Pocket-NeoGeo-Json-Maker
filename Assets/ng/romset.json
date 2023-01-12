@@ -69,8 +69,8 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x000FFFFF",
-	  "C1WAIT": "0x00000001"
+      "V2MASK": "0x000FFFFF",
+      "C1WAIT": "0x00000001"
     }
   },
   {
@@ -91,7 +91,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -100,7 +100,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -149,7 +149,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -283,7 +283,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-	  "V2MASK": "0x003FFFFF"
+      "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -292,7 +292,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-	  "V2MASK": "0x003FFFFF"
+      "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -325,7 +325,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -522,7 +522,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -551,7 +551,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -560,7 +560,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -573,7 +573,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -599,7 +599,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00280000",
-	  "V2MASK": "0x000FFFFF"
+      "V2MASK": "0x000FFFFF"
     }
   },
   {
@@ -713,7 +713,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x001FFFFF"
+      "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -722,7 +722,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -731,14 +731,14 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Ninja Commando",
     "code": "ncommand",
     "memory_writes": {
-	  "C1WAIT": "0x00000001"
+     "C1WAIT": "0x00000001"
     }
   },
   {
@@ -892,7 +892,7 @@
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
       "CTOLINK": "0x00000002",
-	  "V2MASK": "0x001FFFFF"
+      "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -902,7 +902,7 @@
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
       "CTOLINK": "0x00000002",
-	  "V2MASK": "0x001FFFFF"
+      "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -1094,7 +1094,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-	  "V2MASK": "0x003FFFFF"
+      "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -1132,7 +1132,7 @@
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-	  "V2MASK": "0x0007FFFF"
+      "V2MASK": "0x0007FFFF"
     }
   },
   {
