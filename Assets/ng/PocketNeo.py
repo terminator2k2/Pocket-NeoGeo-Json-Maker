@@ -43,14 +43,15 @@ gamesToProcess = [ game for game in supportedGames if game["code"] in installedG
 
 
 memoryMap = {
-    "PVC-Cart": "0xf0000024",
-    "PCM":      "0xf0000028",
-    "SMA-Cart": "0xf000002C",
-    "CMC-Chip": "0xf0000030",
-    "OFFSET":   "0xf000003C",
-    "CTOLINK":  "0xf0000040",
+    "PVC-Cart": "0xF0000404",
+    "PCM":      "0xF000030c",
+    "SMA-Cart": "0xF0000408",
+    "CMC-Chip": "0xF000040c",
+    "V2OFFSET":   "0xF0000310",
+    "CTOLINK":  "0xF0000410",
+    "V2MASK":  "0xF0000314",
+    "C1WAIT":  "0xF0000400",
 }
-
 print("")
 
 for game in gamesToProcess:
@@ -77,7 +78,6 @@ for game in gamesToProcess:
     # write to game file
     with open(gameFilePath, 'w') as gameJsonFile:
         gameJsonFile.write(json.dumps(content, indent=2))
-
 
 os.remove('./template.json')
 os.remove('./romset.json')

@@ -68,7 +68,9 @@
     "code": "bjourney",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x000FFFFF",
+	  "C1WAIT": "0x00000001"
     }
   },
   {
@@ -88,7 +90,8 @@
     "code": "bstars",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -96,7 +99,8 @@
     "code": "bstarsh",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -144,7 +148,8 @@
     "code": "cyberlip",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -277,7 +282,8 @@
     "code": "gpilots",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00280000"
+      "V2OFFSET": "0x00000000",
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -285,7 +291,8 @@
     "code": "gpilotsh",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00280000"
+      "V2OFFSET": "0x00000000",
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -317,7 +324,8 @@
     "code": "joyjoy",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -513,7 +521,8 @@
     "code": "lbowling",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -541,7 +550,8 @@
     "code": "maglord",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -549,7 +559,8 @@
     "code": "maglordh",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -561,7 +572,8 @@
     "code": "mahretsu",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -586,7 +598,8 @@
     "code": "minasan",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00280000"
+      "V2OFFSET": "0x00280000",
+	  "V2MASK": "0x000FFFFF"
     }
   },
   {
@@ -699,7 +712,8 @@
     "code": "nam1975",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -707,7 +721,8 @@
     "code": "ncombat",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
@@ -715,12 +730,16 @@
     "code": "ncombath",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Ninja Commando",
-    "code": "ncommand"
+    "code": "ncommand",
+    "memory_writes": {
+	  "C1WAIT": "0x00000001"
+    }
   },
   {
     "name": "Neo Bomberman",
@@ -871,8 +890,9 @@
     "code": "ridhero",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000",
-      "CTOLINK": "0x00000002"
+      "V2OFFSET": "0x00200000",
+      "CTOLINK": "0x00000002",
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -880,8 +900,9 @@
     "code": "ridheroh",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000",
-      "CTOLINK": "0x00000002"
+      "V2OFFSET": "0x00200000",
+      "CTOLINK": "0x00000002",
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
@@ -1072,7 +1093,8 @@
     "code": "superspy",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00280000"
+      "V2OFFSET": "0x00000000",
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
@@ -1109,7 +1131,8 @@
     "code": "tpgolf",
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
-      "OFFSET": "0x00200000"
+      "V2OFFSET": "0x00200000",
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
