@@ -687,7 +687,10 @@
   },
   {
     "name": "Metal Slug 5 Plus",
-    "code": "ms5plus"
+    "code": "ms5plus",
+	"memory_writes": {
+      "ms5p_bank": "0x00000001"
+    }
   },
   {
     "name": "Metal Slug 6",
