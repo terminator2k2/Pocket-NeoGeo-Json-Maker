@@ -45,6 +45,7 @@ gamesToProcess = [ game for game in supportedGames if game["code"] in installedG
 memoryMap = {
     "PVC-Cart": "0xF0000404",
     "PCM":      "0xF000030c",
+    "ms5p_bank": "0xF0000058",
     "SMA-Cart": "0xF0000408",
     "CMC-Chip": "0xF000040c",
     "V2OFFSET":   "0xF0000310",
