@@ -52,6 +52,7 @@ memoryMap = {
     "CTOLINK":  "0xF0000410",
     "V2MASK":  "0xF0000314",
     "C1WAIT":  "0xF0000400",
+    "XRAM":  "0xF000006C",
 }
 print("")
 
@@ -69,6 +70,12 @@ for game in gamesToProcess:
                 "address": memoryMap[memId],
                 "data": data
             })
+
+    if ("has_vroma0" in game and game["has_vroma0"] == True):
+        content["instance"]["data_slots"].append({
+            "id": 7, 
+            "filename": "vroma0",
+        }) 
 
     if ("has_prom1" in game and game["has_prom1"] == True):
         content["instance"]["data_slots"].append({
