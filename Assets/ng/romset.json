@@ -1,176 +1,214 @@
 [
   {
     "name": "19YY",
-    "code": "19yy"
+    "code": "19yy",
+	"has_vroma0": true
   },
   {
     "name": "2020 Super Baseball",
-    "code": "2020bb"
+    "code": "2020bb",
+	"has_vroma0": true
   },
   {
     "name": "2020 Super Baseball (AES)",
-    "code": "2020bbh"
+    "code": "2020bbh",
+	"has_vroma0": true
   },
   {
     "name": "2020 Super Baseball (set 2)",
-    "code": "2020bba"
+    "code": "2020bba",
+	"has_vroma0": true
   },
   {
     "name": "3 Count Bout",
-    "code": "3countb"
+    "code": "3countb",
+	"has_vroma0": true
   },
   {
     "name": "Alpha Mission II",
-    "code": "alpham2"
+    "code": "alpham2",
+	"has_vroma0": true
   },
   {
     "name": "Alpha Mission II Proto",
-    "code": "alpham2p"
+    "code": "alpham2p",
+	"has_vroma0": true
   },
   {
     "name": "Andro Dunos",
-    "code": "androdun"
+    "code": "androdun",
+	"has_vroma0": true
   },
   {
     "name": "Aggressor's of Dark Kombat",
-    "code": "aodk"
+    "code": "aodk",
+	"has_vroma0": true
   },
   {
     "name": "Art of Fighting",
-    "code": "aof"
+    "code": "aof",
+	"has_vroma0": true
   },
   {
     "name": "Art of Fighting 2",
-    "code": "aof2"
+    "code": "aof2",
+	"has_vroma0": true
   },
   {
     "name": "Art of Fighting 2 (NGH-056)",
-    "code": "aof2a"
+    "code": "aof2a",
+	"has_vroma0": true
   },
   {
     "name": "Art of Fighting 3",
-    "code": "aof3"
+    "code": "aof3",
+	"has_vroma0": true
   },
   {
     "name": "Bang Bang Buster's",
-    "code": "b2b"
+    "code": "b2b",
+	"has_vroma0": true
   },
   {
     "name": "Bakatonosama Mahjong Manyuuki",
-    "code": "bakatono"
+    "code": "bakatono",
+	"has_vroma0": true
   },
   {
     "name": "Bang Bead",
-    "code": "bangbead"
+    "code": "bangbead",
+	"has_vroma0": true
   },
   {
     "name": "Blue's Journey",
     "code": "bjourney",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x000FFFFF",
-      "C1WAIT": "0x00000001"
+	  "V2MASK": "0x000FFFFF",
+	  "C1WAIT": "0x00000001"
     }
   },
   {
     "name": "Blazing Star",
-    "code": "blazstar"
+    "code": "blazstar",
+	"has_vroma0": true
   },
   {
     "name": "Breakers",
-    "code": "breakers"
+    "code": "breakers",
+	"has_vroma0": true
   },
   {
     "name": "Breakers Revenge",
-    "code": "breakrev"
+    "code": "breakrev",
+	"has_vroma0": true
   },
   {
     "name": "Baseball Stars Professional",
     "code": "bstars",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Baseball Stars Professional (AES)",
     "code": "bstarsh",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Baseball Stars 2",
-    "code": "bstars2"
+    "code": "bstars2",
+	"has_vroma0": true
   },
   {
     "name": "Burning Fight",
-    "code": "burningf"
+    "code": "burningf",
+	"has_vroma0": true
   },
   {
     "name": "Burning Fight (AES)",
-    "code": "brningfh"
+    "code": "brningfh",
+	"has_vroma0": true
   },
   {
     "name": "Burning Fight (prototype)",
-    "code": "brnngfpa"
+    "code": "brnngfpa",
+	"has_vroma0": true
   },
   {
     "name": "Burning Fight (proto older)",
-    "code": "brningfp"
+    "code": "brningfp",
+	"has_vroma0": true
   },
   {
     "name": "Cake Fighter",
-    "code": "CakeFighter"
+    "code": "CakeFighter",
+	"has_vroma0": true
   },
   {
     "name": "Columns",
-    "code": "columnsn"
+    "code": "columnsn",
+	"has_vroma0": true
   },
   {
     "name": "Crossed Swords 2 (CD conv)",
-    "code": "crswd2bl"
+    "code": "crswd2bl",
+	"has_vroma0": true
   },
   {
     "name": "Crossed Swords",
-    "code": "crsword"
+    "code": "crsword",
+	"has_vroma0": true
   },
   {
     "name": "Captain Tomaday",
-    "code": "ctomaday"
+    "code": "ctomaday",
+	"has_vroma0": true
   },
   {
     "name": "Cyber-Lip",
     "code": "cyberlip",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Digger Man",
-    "code": "diggerma"
+    "code": "diggerma",
+	"has_vroma0": true
   },
   {
     "name": "Double Dragon",
-    "code": "doubledr"
+    "code": "doubledr",
+	"has_vroma0": true
   },
   {
     "name": "Dragons Heaven",
-    "code": "dragonsh"
+    "code": "dragonsh",
+	"has_vroma0": true
   },
   {
     "name": "Eight Man",
-    "code": "eightman"
+    "code": "eightman",
+	"has_vroma0": true
   },
   {
     "name": "Eye of Typhoon, The",
     "code": "teot",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -180,70 +218,86 @@
   },
   {
     "name": "Fatal Fury Special",
-    "code": "fatfursp"
+    "code": "fatfursp",
+	"has_vroma0": true
   },
   {
     "name": "Fatal Fury Special (NGM-058)",
-    "code": "ftfurspa"
+    "code": "ftfurspa",
+	"has_vroma0": true
   },
   {
     "name": "Fatal Fury",
-    "code": "fatfury1"
+    "code": "fatfury1",
+	"has_vroma0": true
   },
   {
     "name": "Fatal Fury 2",
     "code": "fatfury2",
+	"has_vroma0": true,
     "memory_writes": {
       "CTOLINK": "0x00000001"
     }
   },
   {
     "name": "Fatal Fury 3",
-    "code": "fatfury3"
+    "code": "fatfury3",
+	"has_vroma0": true
   },
   {
     "name": "Football Frenzy",
-    "code": "fbfrenzy"
+    "code": "fbfrenzy",
+	"has_vroma0": true
   },
   {
     "name": "Fight Fever",
-    "code": "fightfev"
+    "code": "fightfev",
+	"has_vroma0": true
   },
   {
     "name": "Fight Fever (set 2)",
-    "code": "fghtfeva"
+    "code": "fghtfeva",
+	"has_vroma0": true
   },
   {
     "name": "Battle Flip Shot",
-    "code": "flipshot"
+    "code": "flipshot",
+	"has_vroma0": true
   },
   {
     "name": "Frog Feast",
-    "code": "frogfest"
+    "code": "frogfest",
+	"has_vroma0": true
   },
   {
     "name": "Idol Mahjong Final Romance 2 (CD conv)",
-    "code": "froman2b"
+    "code": "froman2b",
+	"has_vroma0": true
   },
   {
     "name": "Fighters Swords",
-    "code": "fswords"
+    "code": "fswords",
+	"has_vroma0": true
   },
   {
     "name": "Galaxy Fight Universal Warriors",
-    "code": "galaxyfg"
+    "code": "galaxyfg",
+	"has_vroma0": true
   },
   {
     "name": "Ganryu",
-    "code": "ganryu"
+    "code": "ganryu",
+	"has_vroma0": true
   },
   {
     "name": "Garou - Mark of the Wolves (bootleg)",
-    "code": "garoubl"
+    "code": "garoubl",
+	"has_vroma0": true
   },
   {
     "name": "Garou - Mark of the Wolves",
     "code": "garou",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -254,6 +308,7 @@
   {
     "name": "Garou - Mark of the Wolves (AES)",
     "code": "garouh",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -263,94 +318,121 @@
   },
   {
     "name": "Garou - Mark of the Wolves (proto)",
-    "code": "garoup"
+    "code": "garoup",
+	"has_vroma0": true
   },
   {
     "name": "Ghostlop",
-    "code": "ghostlop"
+    "code": "ghostlop",
+	"has_vroma0": true
   },
   {
     "name": "Goal! Goal! Goal!",
-    "code": "goalx3"
+    "code": "goalx3",
+	"has_vroma0": true
   },
   {
     "name": "Voltage Fighter Gowcaizer",
-    "code": "gowcaizr"
+    "code": "gowcaizr",
+	"has_vroma0": true
   },
   {
     "name": "Ghost Pilots",
     "code": "gpilots",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-      "V2MASK": "0x003FFFFF"
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
     "name": "Ghost Pilots (AES)",
     "code": "gpilotsh",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-      "V2MASK": "0x003FFFFF"
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
     "name": "Gururin",
-    "code": "gururin"
+    "code": "gururin",
+	"has_vroma0": true
   },
   {
     "name": "Hypernoid",
-    "code": "hyprnoid"
+    "code": "hyprnoid",
+	"has_vroma0": true
   },
   {
     "name": "Ironclad",
-    "code": "ironclad"
+    "code": "ironclad",
+	"has_vroma0": true
   },
   {
     "name": "Ironclad (bootleg)",
-    "code": "irnclado"
+    "code": "irnclado",
+	"has_vroma0": true
   },
   {
     "name": "Irritating Maze",
-    "code": "irrmaze"
+    "code": "irrmaze",
+	"has_vroma0": true
   },
   {
     "name": "Janshin Densetsu Quest of Jongmaster",
-    "code": "janshin"
+    "code": "janshin",
+	"has_vroma0": true
+  },
+    {
+    "name": "jockey gp",
+    "code": "jockeygp",
+	"has_vroma0": true,
+    "memory_writes": {
+      "XRAM": "0x00000001"
+    }
   },
   {
     "name": "Puzzled",
     "code": "joyjoy",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Far East of Eden Kabuki Klash",
-    "code": "kabukikl"
+    "code": "kabukikl",
+	"has_vroma0": true
   },
   {
     "name": "Karnov's Revenge",
-    "code": "karnovr"
+    "code": "karnovr",
+	"has_vroma0": true
   },
   {
     "name": "Kizuna Encounter Super Tag Battle",
-    "code": "kizuna"
+    "code": "kizuna",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2002 Magic Plus II, The",
-    "code": "kf2k2mp2"
+    "code": "kf2k2mp2",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2002 Magic Plus, The",
-    "code": "kf2k2mp"
+    "code": "kf2k2mp",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2000, The",
     "code": "kof2000",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -360,19 +442,23 @@
   },
   {
     "name": "King of Fighters 2001, The (AES)",
-    "code": "kof2001h"
+    "code": "kof2001h",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2001, The",
-    "code": "kof2001"
+    "code": "kof2001",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2002, The",
-    "code": "kof2002"
+    "code": "kof2002",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 2003, The",
     "code": "kof2003",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000001",
@@ -382,79 +468,98 @@
   },
   {
     "name": "King of Fighters Special Edition 2004, The",
-    "code": "kof2k4se"
+    "code": "kof2k4se",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters 10th Anniversary, The",
-    "code": "kf10thep"
+    "code": "kf10thep",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '94, The",
-    "code": "kof94"
+    "code": "kof94",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '95, The",
-    "code": "kof95"
+    "code": "kof95",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '95, The (NGM-084)",
-    "code": "kof95a"
+    "code": "kof95a",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '95, The (AES)",
-    "code": "kof95h"
+    "code": "kof95h",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '96, The",
-    "code": "kof96"
+    "code": "kof96",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '96, The (AES)",
-    "code": "kof96h"
+    "code": "kof96h",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '97, The",
-    "code": "kof97"
+    "code": "kof97",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '97, The (AES)",
-    "code": "kof97h"
+    "code": "kof97h",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '97, The (Korean)",
-    "code": "kof97k"
+    "code": "kof97k",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '97, The Chongchu Jianghu Plus 2003",
-    "code": "kof97oro"
+    "code": "kof97oro",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '97 Plus, The (Bootleg)",
-    "code": "kof97pls"
+    "code": "kof97pls",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '98, The - The Slugfest (AES)",
-    "code": "kof98h"
+    "code": "kof98h",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '98, The - The Slugfest (NGM-2420)",
-    "code": "kof98a"
+    "code": "kof98a",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '98, The - The Slugfest",
-    "code": "kof98"
+    "code": "kof98",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '98, The - The Slugfest (Korean)",
-    "code": "kof98k"
+    "code": "kof98k",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '99, The Millennium Battle (proto)",
-    "code": "kof99p"
+    "code": "kof99p",
+	"has_vroma0": true
   },
   {
     "name": "King of Fighters '99, The Millennium Battle",
     "code": "kof99",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -465,6 +570,7 @@
   {
     "name": "King of Fighters '99, The Millennium Battle (earlier)",
     "code": "kof99e",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -474,115 +580,138 @@
   },
   {
     "name": "King of Gladiators",
-    "code": "kog"
+    "code": "kog",
+	"has_vroma0": true
   },
   {
     "name": "King of the Monsters",
-    "code": "kotm"
+    "code": "kotm",
+	"has_vroma0": true
   },
   {
     "name": "King of the Monsters (AES)",
-    "code": "kotmh"
+    "code": "kotmh",
+	"has_vroma0": true
   },
   {
     "name": "King of the Monsters 2 The Next Thing",
-    "code": "kotm2"
+    "code": "kotm2",
+	"has_vroma0": true
   },
   {
     "name": "King of the Monsters 2 The Next Thing (proto)",
-    "code": "kotm2p"
+    "code": "kotm2p",
+	"has_vroma0": true
   },
   {
     "name": "Lansquenet 2004 (Shock Troopers 2nd Squad)",
-    "code": "lans2004"
+    "code": "lans2004",
+	"has_vroma0": true
   },
   {
     "name": "Last Blade, The",
-    "code": "lastblad"
+    "code": "lastblad",
+	"has_vroma0": true
   },
   {
     "name": "Last Blade, The (AES)",
-    "code": "lstbladh"
+    "code": "lstbladh",
+	"has_vroma0": true
   },
   {
     "name": "Last Blade 2, The",
-    "code": "lastbld2"
+    "code": "lastbld2",
+	"has_vroma0": true
   },
   {
     "name": "Last Hope",
-    "code": "lasthope"
+    "code": "lasthope",
+	"has_vroma0": true
   },
   {
     "name": "Last Soldier, The",
-    "code": "lastsold"
+    "code": "lastsold",
+	"has_vroma0": true
   },
   {
     "name": "League Bowling",
     "code": "lbowling",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Legend of Success Joe",
-    "code": "legendos"
+    "code": "legendos",
+	"has_vroma0": true
   },
   {
     "name": "Last Resort",
-    "code": "lresort"
+    "code": "lresort",
+	"has_vroma0": true
   },
   {
     "name": "Last Resort (prototype)",
-    "code": "lresortp"
+    "code": "lresortp",
+	"has_vroma0": true
   },
   {
     "name": "Magical Drop II",
-    "code": "magdrop2"
+    "code": "magdrop2",
+	"has_vroma0": true
   },
   {
     "name": "Magical Drop III",
-    "code": "magdrop3"
+    "code": "magdrop3",
+	"has_vroma0": true
   },
   {
     "name": "Magician Lord",
     "code": "maglord",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Magician Lord (AES)",
     "code": "maglordh",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Neo Black Tiger",
-    "code": "nblktiger"
+    "code": "nblktiger",
+	"has_vroma0": true
   },
   {
     "name": "Mahjong Kyo Retsuden",
     "code": "mahretsu",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Chibi Marukochan Deluxe Quiz",
-    "code": "marukodq"
+    "code": "marukodq",
+	"has_vroma0": true
   },
   {
     "name": "Power Instinct Matrimelee",
     "code": "matrim",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
       "SMA-Cart": "0x00000000",
@@ -591,40 +720,48 @@
   },
   {
     "name": "Money Puzzle Exchanger",
-    "code": "miexchng"
+    "code": "miexchng",
+	"has_vroma0": true
   },
   {
     "name": "Minasan no Okagesamadesu! Dai Sugoroku Taikai",
     "code": "minasan",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00280000",
-      "V2MASK": "0x000FFFFF"
+	  "V2MASK": "0x000FFFFF"
     }
   },
   {
     "name": "Monitor Test ROM",
-    "code": "MonitorTest"
+    "code": "MonitorTest",
+	"has_vroma0": true
   },
   {
     "name": "Shougi no Tatsujin - Master of Syougi",
-    "code": "moshougi"
+    "code": "moshougi",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug",
-    "code": "mslug"
+    "code": "mslug",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug 2",
-    "code": "mslug2"
+    "code": "mslug2",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug 2 Turbo",
-    "code": "mslug2t"
+    "code": "mslug2t",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug 3",
     "code": "mslug3",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -635,6 +772,7 @@
   {
     "name": "Metal Slug 3 (AES)",
     "code": "mslug3h",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
       "SMA-Cart": "0x00000000",
@@ -643,11 +781,13 @@
   },
   {
     "name": "Metal Slug 3 (Set 3)",
-    "code": "mslug3c"
+    "code": "mslug3c",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug 4",
     "code": "mslug4",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
       "SMA-Cart": "0x00000000",
@@ -657,6 +797,7 @@
   {
     "name": "Metal Slug 4 (AES)",
     "code": "mslug4h",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
       "SMA-Cart": "0x00000000",
@@ -665,11 +806,13 @@
   },
   {
     "name": "Metal Slug 4 Plus",
-    "code": "ms4plus"
+    "code": "ms4plus",
+	"has_vroma0": true
   },
   {
     "name": "Metal Slug 5",
     "code": "mslug5",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000001",
       "SMA-Cart": "0x00000000",
@@ -679,6 +822,7 @@
   {
     "name": "Metal Slug 5 (AES)",
     "code": "mslug5h",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000001",
       "SMA-Cart": "0x00000000",
@@ -688,6 +832,7 @@
   {
     "name": "Metal Slug 5 Plus",
     "code": "ms5plus",
+	"has_vroma0": true,
 	"memory_writes": {
       "ms5p_bank": "0x00000001"
     }
@@ -695,6 +840,7 @@
   {
     "name": "Metal Slug 6",
     "code": "mslug6",
+	"has_vroma0": true,
     "has_prom1": true,
     "memory_writes": {
       "PVC-Cart": "0x00000000",
@@ -704,409 +850,501 @@
   },
   {
     "name": "Metal Slug X",
-    "code": "mslugx"
+    "code": "mslugx",
+	"has_vroma0": true
   },
   {
     "name": "Mutation Nation",
-    "code": "mutnat"
+    "code": "mutnat",
+	"has_vroma0": true
   },
   {
     "name": "NAM-1975",
     "code": "nam1975",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x001FFFFF"
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
     "name": "Ninja Combat",
     "code": "ncombat",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Ninja Combat (AES)",
     "code": "ncombath",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Ninja Commando",
     "code": "ncommand",
+	"has_vroma0": true,
     "memory_writes": {
-     "C1WAIT": "0x00000001"
+	  "C1WAIT": "0x00000001"
     }
   },
   {
     "name": "Neo Bomberman",
-    "code": "neobombe"
+    "code": "neobombe",
+	"has_vroma0": true
   },
   {
     "name": "Neo-Geo Cup 98 The Road to the Victory",
-    "code": "neocup98"
+    "code": "neocup98",
+	"has_vroma0": true
   },
   {
     "name": "Neo Drift Out New Technology",
-    "code": "neodrift"
+    "code": "neodrift",
+	"has_vroma0": true
   },
   {
     "name": "Neo Fight",
-    "code": "neofight"
+    "code": "neofight",
+	"has_vroma0": true
   },
   {
     "name": "Neo Mr Do",
-    "code": "neomrdo"
+    "code": "neomrdo",
+	"has_vroma0": true
   },
   {
     "name": "Neo Thunder",
-    "code": "neothund"
+    "code": "neothund",
+	"has_vroma0": true
   },
   {
     "name": "NeoTRIS",
-    "code": "neotris"
+    "code": "neotris",
+	"has_vroma0": true
   },
   {
     "name": "Ninja Master's",
-    "code": "ninjamas"
+    "code": "ninjamas",
+	"has_vroma0": true
   },
   {
     "name": "Nightmare in the Dark",
-    "code": "nitd"
+    "code": "nitd",
+	"has_vroma0": true
   },
   {
     "name": "Nightmare in the Dark (bootleg)",
-    "code": "nitdbl"
+    "code": "nitdbl",
+	"has_vroma0": true
   },
   {
     "name": "OverTop",
-    "code": "overtop"
+    "code": "overtop",
+	"has_vroma0": true
   },
   {
     "name": "Panic Bomber",
-    "code": "panicbom"
+    "code": "panicbom",
+	"has_vroma0": true
   },
   {
     "name": "Puzzle Bobble 2",
-    "code": "pbobbl2n"
+    "code": "pbobbl2n",
+	"has_vroma0": true
   },
   {
     "name": "Puzzle Bobble",
-    "code": "pbobblen"
+    "code": "pbobblen",
+	"has_vroma0": true
   },
   {
     "name": "Puzzle Bobble (bootleg)",
-    "code": "pbbblenb"
+    "code": "pbbblenb",
+	"has_vroma0": true
   },
   {
     "name": "Pleasure Goal",
-    "code": "pgoal"
+    "code": "pgoal",
+	"has_vroma0": true
   },
   {
     "name": "Pochi and Nyaa",
-    "code": "pnyaa"
+    "code": "pnyaa",
+	"has_vroma0": true
   },
   {
     "name": "Pop 'n Bounce",
-    "code": "popbounc"
+    "code": "popbounc",
+	"has_vroma0": true
   },
   {
     "name": "Prehistoric Isle 2",
-    "code": "preisle2"
+    "code": "preisle2",
+	"has_vroma0": true
   },
   {
     "name": "Power Spikes II",
-    "code": "pspikes2"
+    "code": "pspikes2",
+	"has_vroma0": true
   },
   {
     "name": "Pulstar",
-    "code": "pulstar"
+    "code": "pulstar",
+	"has_vroma0": true
   },
   {
     "name": "Puzzle De Pon! R!",
-    "code": "puzzldpr"
+    "code": "puzzldpr",
+	"has_vroma0": true
   },
   {
     "name": "Puzzle De Pon!",
-    "code": "puzzledp"
+    "code": "puzzledp",
+	"has_vroma0": true
   },
   {
     "name": "Quiz Meitantei",
-    "code": "quizdai2"
+    "code": "quizdai2",
+	"has_vroma0": true
   },
   {
     "name": "Quiz Daisousa Sen The Last Count Down",
-    "code": "quizdais"
+    "code": "quizdais",
+	"has_vroma0": true
   },
   {
     "name": "Quiz Salibtamjeong The Last Count Down (Korean)",
-    "code": "quizdask"
+    "code": "quizdask",
+	"has_vroma0": true
   },
   {
     "name": "Quiz King of Fighters",
-    "code": "quizkof"
+    "code": "quizkof",
+	"has_vroma0": true
   },
   {
     "name": "Quiz King of Fighters (Korean)",
-    "code": "quizkofk"
+    "code": "quizkofk",
+	"has_vroma0": true
   },
   {
     "name": "Ragnagard",
-    "code": "ragnagrd"
+    "code": "ragnagrd",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury",
-    "code": "rbff1"
+    "code": "rbff1",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury (bug fix)",
-    "code": "rbff1a"
+    "code": "rbff1a",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury 2 The Newcomers",
-    "code": "rbff2"
+    "code": "rbff2",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury 2 The Newcomers (AES)",
-    "code": "rbff2h"
+    "code": "rbff2h",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury 2 The Newcomers (Korean)",
-    "code": "rbff2k"
+    "code": "rbff2k",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury Special",
-    "code": "rbffspec"
+    "code": "rbffspec",
+	"has_vroma0": true
   },
   {
     "name": "Real Bout Fatal Fury Special (Korean)",
-    "code": "rbffspck"
+    "code": "rbffspck",
+	"has_vroma0": true
   },
   {
     "name": "Riding Hero",
     "code": "ridhero",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
       "CTOLINK": "0x00000002",
-      "V2MASK": "0x001FFFFF"
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
     "name": "Riding Hero (AES)",
     "code": "ridheroh",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
       "CTOLINK": "0x00000002",
-      "V2MASK": "0x001FFFFF"
+	  "V2MASK": "0x001FFFFF"
     }
   },
   {
     "name": "Robo Army",
-    "code": "roboarmy"
+    "code": "roboarmy",
+	"has_vroma0": true
   },
   {
     "name": "Robo Army (NGM-032)",
-    "code": "roboarma"
+    "code": "roboarma",
+	"has_vroma0": true
   },
   {
     "name": "Rage of the Dragons",
-    "code": "rotd"
+    "code": "rotd",
+	"has_vroma0": true
   },
   {
     "name": "Rage of the Dragons (AES)",
-    "code": "rotdh"
+    "code": "rotdh",
+	"has_vroma0": true
   },
   {
     "name": "Strikers 1945 Plus",
-    "code": "s1945p"
+    "code": "s1945p",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown",
-    "code": "samsho"
+    "code": "samsho",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown (AES)",
-    "code": "samshoh"
+    "code": "samshoh",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown II",
-    "code": "samsho2"
+    "code": "samsho2",
+	"has_vroma0": true
   },
   {
     "name": "Saulabi Spirits (Korean release of Samurai Shodown II)",
-    "code": "samsho2k"
+    "code": "samsho2k",
+	"has_vroma0": true
   },
   {
     "name": "Saulabi Spirits (Korean release of Samurai Shodown II, set 2)",
-    "code": "smsho2k2"
+    "code": "smsho2k2",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown III",
-    "code": "samsho3"
+    "code": "samsho3",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown III (AES)",
-    "code": "samsho3h"
+    "code": "samsho3h",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown IV Amakusa's Revenge",
-    "code": "samsho4"
+    "code": "samsho4",
+	"has_vroma0": true
   },
   {
     "name": "Pae Wang Jeon Seol - Legend of a Warrior",
-    "code": "samsho4k"
+    "code": "samsho4k",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V Special",
-    "code": "samsh5sp"
+    "code": "samsh5sp",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V Special (2nd release, less censored)",
-    "code": "smsh5sph"
+    "code": "smsh5sph",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V Special (1st release, censored)",
-    "code": "smsh5spo"
+    "code": "smsh5spo",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V",
-    "code": "samsho5"
+    "code": "samsho5",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V (bootleg)",
-    "code": "samsho5b"
+    "code": "samsho5b",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V (AES)",
-    "code": "samsho5h"
+    "code": "samsho5h",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V (XBOX version hack)",
-    "code": "samsho5x"
+    "code": "samsho5x",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V Special Final Edition",
-    "code": "samsh5fe"
+    "code": "samsh5fe",
+	"has_vroma0": true
   },
   {
     "name": "Samurai Shodown V Perfect",
-    "code": "samsh5pf"
+    "code": "samsh5pf",
+	"has_vroma0": true
   },
   {
     "name": "Savage Reign",
-    "code": "savagere"
+    "code": "savagere",
+	"has_vroma0": true
   },
   {
     "name": "Super Bubble Pop",
-    "code": "sbp"
+    "code": "sbp",
+	"has_vroma0": true
   },
   {
     "name": "Super Dodge Ball",
-    "code": "sdodgeb"
+    "code": "sdodgeb",
+	"has_vroma0": true
   },
   {
     "name": "Sengoku",
-    "code": "sengoku"
+    "code": "sengoku",
+	"has_vroma0": true
   },
   {
     "name": "Sengoku (AES)",
-    "code": "sengokuh"
+    "code": "sengokuh",
+	"has_vroma0": true
   },
   {
     "name": "Sengoku 2",
-    "code": "sengoku2"
+    "code": "sengoku2",
+	"has_vroma0": true
   },
   {
     "name": "Sengoku 3",
-    "code": "sengoku3"
+    "code": "sengoku3",
+	"has_vroma0": true
   },
   {
     "name": "Shock Troopers 2nd Squad",
-    "code": "shocktr2"
+    "code": "shocktr2",
+	"has_vroma0": true
   },
   {
     "name": "Shock Troopers",
-    "code": "shocktro"
+    "code": "shocktro",
+	"has_vroma0": true
   },
   {
     "name": "Shock Troopers (set 2)",
-    "code": "shcktroa"
+    "code": "shcktroa",
+	"has_vroma0": true
   },
   {
     "name": "Soccer Brawl",
-    "code": "socbrawl"
+    "code": "socbrawl",
+	"has_vroma0": true
   },
   {
     "name": "Soccer Brawl (AES)",
-    "code": "scbrawlh"
+    "code": "scbrawlh",
+	"has_vroma0": true
   },
   {
     "name": "Aero Fighters 2",
-    "code": "sonicwi2"
+    "code": "sonicwi2",
+	"has_vroma0": true
   },
   {
     "name": "Aero Fighters 3",
-    "code": "sonicwi3"
+    "code": "sonicwi3",
+	"has_vroma0": true
   },
   {
     "name": "Spinmaster",
-    "code": "spinmast"
+    "code": "spinmast",
+	"has_vroma0": true
   },
   {
     "name": "Super Sidekicks",
     "code": "ssideki",
+	"has_vroma0": true,
     "memory_writes": {
       "CTOLINK": "0x00000001"
     }
   },
   {
     "name": "Super Sidekicks 2 The World Championship",
-    "code": "ssideki2"
+    "code": "ssideki2",
+	"has_vroma0": true
   },
   {
     "name": "Super Sidekicks 3 The Next Glory",
-    "code": "ssideki3"
+    "code": "ssideki3",
+	"has_vroma0": true
   },
   {
     "name": "Ultimate 11, The The SNK Football Championship",
-    "code": "ssideki4"
+    "code": "ssideki4",
+	"has_vroma0": true
   },
   {
     "name": "Stakes Winner",
-    "code": "stakwin"
+    "code": "stakwin",
+	"has_vroma0": true
   },
   {
     "name": "Stakes Winner 2",
-    "code": "stakwin2"
+    "code": "stakwin2",
+	"has_vroma0": true
   },
   {
     "name": "Street Hoop",
-    "code": "strhoop"
+    "code": "strhoop",
+	"has_vroma0": true
   },
   {
     "name": "Super Spy, The",
     "code": "superspy",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00000000",
-      "V2MASK": "0x003FFFFF"
+	  "V2MASK": "0x003FFFFF"
     }
   },
   {
     "name": "Tetris",
-    "code": "tetrismn"
+    "code": "tetrismn",
+	"has_vroma0": true
   },
   {
     "name": "SNK vs. Capcom",
     "code": "svc",
+	"has_vroma0": true,
     "memory_writes": {
       "PVC-Cart": "0x00000001",
       "SMA-Cart": "0x00000000",
@@ -1115,111 +1353,145 @@
   },
   {
     "name": "SNK vs. Capcom Plus",
-    "code": "svcplus"
+    "code": "svcplus",
+	"has_vroma0": true
   },
   {
     "name": "Top Hunter",
-    "code": "tophuntr"
+    "code": "tophuntr",
+	"has_vroma0": true
   },
   {
     "name": "Top Hunter (AES)",
-    "code": "tphuntrh"
+    "code": "tphuntrh",
+	"has_vroma0": true
   },
   {
     "name": "Treasure of the Caribbean",
-    "code": "totc"
+    "code": "totc",
+	"has_vroma0": true
   },
   {
     "name": "Top Players Golf",
     "code": "tpgolf",
+	"has_vroma0": true,
     "memory_writes": {
       "PCM": "0xFFFFFFFF",
       "V2OFFSET": "0x00200000",
-      "V2MASK": "0x0007FFFF"
+	  "V2MASK": "0x0007FFFF"
     }
   },
   {
     "name": "Thrash Rally",
-    "code": "trally"
+    "code": "trally",
+	"has_vroma0": true
   },
   {
     "name": "Rally Chase",
-    "code": "RallyChase"
+    "code": "RallyChase",
+	"has_vroma0": true
   },
   {
     "name": "Neo Turf Masters",
-    "code": "turfmast"
+    "code": "turfmast",
+	"has_vroma0": true
   },
   {
     "name": "Twinkle Star Sprites",
-    "code": "twinspri"
+    "code": "twinspri",
+	"has_vroma0": true
   },
   {
     "name": "Tecmo World Soccer 96",
-    "code": "tws96"
+    "code": "tws96",
+	"has_vroma0": true
   },
   {
     "name": "Tecmo World Soccer 96 (Set 2)",
-    "code": "twsoc96"
+    "code": "twsoc96",
+	"has_vroma0": true
   },
   {
     "name": "Viewpoint",
-    "code": "viewpoin"
+    "code": "viewpoin",
+	"has_vroma0": true
+  },
+  {
+    "name": "V-Liner",
+    "code": "vliner",
+    "memory_writes": {
+      "XRAM": "0x00000001"
+    }
   },
   {
     "name": "Waku Waku 7",
-    "code": "wakuwak7"
+    "code": "wakuwak7",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes",
-    "code": "wh1"
+    "code": "wh1",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes (AES)",
-    "code": "wh1h"
+    "code": "wh1h",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes (set 3)",
-    "code": "wh1ha"
+    "code": "wh1ha",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes 2",
-    "code": "wh2"
+    "code": "wh2",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes 2 Jet",
-    "code": "wh2j"
+    "code": "wh2j",
+	"has_vroma0": true
   },
   {
     "name": "World Heroes Perfect",
-    "code": "whp"
+    "code": "whp",
+	"has_vroma0": true
   },
   {
     "name": "Windjammers",
-    "code": "wjammers"
+    "code": "wjammers",
+	"has_vroma0": true
   },
   {
     "name": "Windjammers Supersonic",
-    "code": "wjammss"
+    "code": "wjammss",
+	"has_vroma0": true
   },
   {
     "name": "Xeno Crisis",
-    "code": "XenoCrisis"
+    "code": "XenoCrisis",
+	"has_vroma0": true
   },
   {
     "name": "Zed Blade",
-    "code": "zedblade"
+    "code": "zedblade",
+	"has_vroma0": true
   },
   {
     "name": "ZinTricK",
-    "code": "zintrckb"
+    "code": "zintrckb",
+	"has_vroma0": true
   },
   {
     "name": "Zupapa!",
-    "code": "zupapa"
+    "code": "zupapa",
+	"has_vroma0": true
   },
   {
     "name": "Crouching Tiger Hidden Dragon",
-    "code": "ct2k3sa"
+    "code": "ct2k3sa",
+	"has_vroma0": true
   }
 ]
+
